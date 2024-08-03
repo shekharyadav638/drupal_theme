@@ -3,6 +3,12 @@ global:
   css:
     theme:
       css/style.css: {}
+      https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css: {}
+      css/bootstrap.min.css: {}
 
   js:
     js/custom.js: {}
+    js/bootstrap.bundle.min.js: {}
+    js/aos.js: {}
+  dependencies:
+    - core/jquery
