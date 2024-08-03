@@ -4,9 +4,9 @@ description: personal theme
 base theme: false
 core_version_requirement: ^9 || ^10
 
-dependencies:
-  - drupal:components (^3.0)
-  - drupal:emulsify_twig (^5.0)
+# dependencies:
+#   - drupal:components (^3.0)
+#   - drupal:emulsify_twig (^5.0)
 
 # Libraries (These are loaded on every page. Use https://www.drupal.org/developing/api/8/assets#twig whenever possible.)
 libraries:
