@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #37517e !important;
 }
 
+a{
+    text-decoration: none;
+}
+
 .hero{
     overflow-x: hidden;
     width: 100%;
@@ -132,5 +136,44 @@ color-mix(in srgb, #ffffff, transparent 30%);
     color: #47b2e4;
     font-size: 36px;
     transition: 0.3s;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.navmenu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navmenu ul li{
+    text-decoration: none;
+}
+
+.navmenu a{
+        padding: 18px 15px;
+        font-size: 15px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        white-space: nowrap;
+        transition: 0.3s;
+        text-decoration: none;
+}
+
+.btn-getstarted{
+    color: #ffffff;
+    background: #47b2e4;
+    font-size: 14px;
+    padding: 8px 25px;
+    margin: 0 0 0 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    text-decoration: none; 
 }
 
